@@ -2,6 +2,7 @@
 This script analyzes email headers to detect potential spoofing attempts by extracting key information such as the sender’s domain and IP address. It performs SPF (Sender Policy Framework) validation to ensure the sender's domain is authenticated, printing warnings if the SPF record is missing or invalid.
 
 Overview
+
 This python script is designed to parse email headers and check for certain indicators of potential email spoofing. Email spoofing is a technique used by attackers to forge the sender’s email address to appear as though it comes from a trusted source. The script performs two primary tasks: extracting key information from email headers and analyzing the sender's domain for SPF (Sender Policy Framework) records, which help prevent spoofing. Additionally, the script extracts sender IP addresses from the email's headers and prints warnings if any suspicious patterns or missing records are detected.
 
 1. Email Header Parsing
